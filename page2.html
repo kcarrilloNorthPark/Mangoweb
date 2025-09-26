@@ -1,47 +1,55 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>
-            Mango uses along with a recipe
-        </title>
+        <title>Mango Uses and Recipe</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <header>
-            <h1>Mangos in Daily Life</h1>
-            <h2>Uses and a Simple Recipe</h2>
+        <header id="main-header">
+            <h1 class="title">Mangos in Daily Life</h1>
+            <h2 class="subtitle">Uses and a Simple Recipe</h2>
         </header>
 
         <main>
             <section>
-                <p>
+                <p class="text">
                     Mangos are extremely versatile in the kitchen. They can be eaten fresh, blended into smoothies, 
                     used in salsas, or even turned into pickles and chutneys.
                 </p>
             </section>
 
             <section>
-                <h3>Mango Smoothie recipe.</h3>
-                <p>This refreshing mango smoothie is quick to make and perfect for a hot day.</p>
-                <h4>Ingredients:</h4>
-                <ul>
-                    <li>1 ripe mango (peeled and chopped)</li>
-                    <li>1 cup milk (or almond milk for dairy-free)</li>
-                    <li>1/2 cup plain yogurt</li>
-                    <li>1 tablespoon honey (optional)</li>
-                    <li>A few ice cubes</li>
-                </ul>
-                <h4>Steps:</h4>
-                <ol>
-                    <li>Place the chopped mango, milk, yogurt, and honey into a blender.</li>
-                    <li>Add the ice cubes for a chilled texture.</li>
-                    <li>Blend until smooth and creamy.</li>
-                    <li>Pour into a glass and enjoy immediately!</li>
-                </ol>
+                <h3>Mango Smoothie Recipe</h3>
+                <p class="text">This refreshing mango smoothie is quick to make and perfect for a hot day.</p>
+
+                <!-- Flex container for side-by-side layout -->
+                <div class="flex-container">
+                    <section id="ingredients">
+                        <h4>Ingredients:</h4>
+                        <ul>
+                            <li>1 ripe mango (peeled and chopped)</li>
+                            <li>1 cup milk (or almond milk for dairy-free)</li>
+                            <li>1/2 cup plain yogurt</li>
+                            <li>1 tablespoon honey (optional)</li>
+                            <li>A few ice cubes</li>
+                        </ul>
+                    </section>
+
+                    <section id="steps">
+                        <h4>Steps:</h4>
+                        <ol>
+                            <li>Place the chopped mango, milk, yogurt, and honey into a blender.</li>
+                            <li>Add the ice cubes for a chilled texture.</li>
+                            <li>Blend until smooth and creamy.</li>
+                            <li>Pour into a glass and enjoy immediately!</li>
+                        </ol>
+                    </section>
+                </div>
             </section>
         </main>
-        <footer>
+
+        <footer id="page-footer">
             <p><a href="index.html">Back to Home</a></p>
         </footer>
     </body>
-    <link rel="stylesheet" href="style.css">
 </html>
