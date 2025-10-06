@@ -1,15 +1,15 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #fff8e7;
-  color: #333;
+  background-color: #f9f9f9;
+  color: #222;
   margin: 0;
   padding: 0;
   line-height: 1.6;
 }
 
 h1, h2, h3 {
-  color: #c0392b;
+  color: #111;
   text-align: center;
 }
 
@@ -87,10 +87,10 @@ p, ul, ol {
 
 
 a {
-  color: #1a5276;
+  color: #0056b3;
 }
 a:hover {
-  color: #154360;
+  color: #003d80;
 }
 
 
