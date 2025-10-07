@@ -13,22 +13,23 @@
 
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="page2.html">Mango Recipe</a></li>
+                <li><a href="index.html"class="btn btn-primary mx-2">Home</a></li>
+                <li><a href="page2.html"class="btn btn-primary mx-2">Mango Recipe</a></li>
             </ul>
         </nav>
     </body>
 
     <main>
-        <section class="content-section" id="intro">
+        <section class="content-section mb-4" id="intro">
             <p class="text">
                 The mango is a tropical stone fruit that is beloved worldwide for its sweet taste and juicy texture. 
                 It grows in warm climates and comes in many different varieties.
             </p>
             <p class="text">Mangos are not only delicious but also packed with vitamins, making them both a tasty and healthy choice.</p>
         </section>
-        <div class="flex-container">
-                <section class="content-section" id="benefits">
+        <div class="row g-3">
+            <div class="col-md-6">
+                <section class="content-section fact-box">
                     <h3>Health Benefits of Mangos</h3>
                     <ul>
                         <li>Rich in Vitamin C</li>
@@ -37,8 +38,9 @@
                         <li>Supports healthy skin and eyes</li>
                     </ul>
                 </section>
-
-                <section class="content-section" id="fun-facts">
+            </div>
+            <div class="col-md-6">
+                <section class="content-section fact-box">
                     <h3>Fun Facts About Mangos</h3>
                     <ol>
                         <li>Mangos originated in South Asia over 4,000 years ago.</li>
@@ -47,12 +49,13 @@
                     </ol>
                 </section>
             </div>
+        </div>
         
-        <section>
+        <section class="my-4">
             <img src="images/download.jpeg" alt="mmmmmmmm Mnago" width="300">
         </section>
     </main>
-    <footer id="page-footer">
-    <p><a href="page2.html">Learn more about mangos on Page 2</a></p>
+    <footer class="bg-warning text-white text-center py-3">
+        <p><a href="page2.html" class="text-white">Learn more about mangos on Page 2</a></p>
     </footer>
 </html>

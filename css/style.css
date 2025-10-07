@@ -88,13 +88,19 @@ p, ul, ol {
 }
 
 
-a {
-    color: #0056b3;
-}
-a:hover {
-    color: #003d80;
+a.custom-link {
+    color: #370df1;
+    background-color: #a84300;
+    padding: 10px 18px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
 }
 
+a.custom-link:hover {
+    background-color: #cc5500;
+    color: white;
+}
 
 
 @media (max-width: 768px) {
