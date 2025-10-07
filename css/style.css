@@ -1,164 +1,164 @@
 
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f9f9f9;
-  color: #222;
-  margin: 0;
-  padding: 0;
-  line-height: 1.6;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #222;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
 }
 
 h1, h2, h3 {
-  color: #111;
-  text-align: center;
+    color: #111;
+    text-align: center;
 }
 
 p, ul, ol {
-  margin: 10px 20px;
+    margin: 10px 20px;
 }
 
 
 .nav-links {
-  list-style-type: none;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+    background-color: #e67e22;
 }
 
 .nav-links a {
-  text-decoration: none;
-  color: #ffffff;
-  background-color: #e67e22;
-  padding: 8px 15px;
-  border-radius: 5px;
+    text-decoration: none;
+    color: #370df1;
+    background-color: #a84300;
+    padding: 10px 18px;
+    border-radius: 5px;
+    font-weight: bold;
 }
 
 .nav-links a:hover {
-  background-color: #d35400;
+    background-color: #cc5500;
 }
 
 
 #main-header, #recipe-header {
-  background-color: #f39c12;
-  color: white;
-  padding: 15px 0;
-  text-align: center;
+    background-color: #f39c12;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
 }
 
 #main-footer, #recipe-footer {
-  background-color: #e67e22;
-  color: white;
-  text-align: center;
-  padding: 10px 0;
+    background-color: #e67e22;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
 }
 
 
 .content-section {
-  margin: 20px;
-  padding: 15px;
-  background-color: #fef5e7;
-  border-radius: 10px;
+    margin: 20px;
+    padding: 15px;
+    background-color: #fef5e7;
+    border-radius: 10px;
 }
 
 
 .flex-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
 }
 
 .fact-box, .recipe-info, .recipe-steps {
-  flex: 1;
-  min-width: 250px;
-  background-color: #f9e79f;
-  padding: 15px;
-  border-radius: 10px;
+    flex: 1;
+    min-width: 250px;
+    background-color: #fff2b2;
+    padding: 15px;
+    border-radius: 10px;
 }
 
 
 .image-center {
-  display: block;
-  margin: 10px auto;
-  max-width: 90%;
-  border-radius: 10px;
+    display: block;
+    margin: 10px auto;
+    max-width: 90%;
+    border-radius: 10px;
 }
 
 
 a {
-  color: #0056b3;
+    color: #0056b3;
 }
 a:hover {
-  color: #003d80;
+    color: #003d80;
 }
 
 
 
 @media (max-width: 768px) {
-  
-  body {
-    font-size: 16px;
-    padding: 0 10px;
-    background-color: #fff4d6; 
-  }
 
-  
-  h1 {
-    font-size: 1.7em;
-    margin: 10px 0;
-  }
+    body {
+        font-size: 16px;
+        padding: 0 10px;
+        background-color: #fff4d6; 
+    }
 
-  h2 {
-    font-size: 1.3em;
-    margin: 8px 0;
-  }
+    h1 {
+        font-size: 1.7em;
+        margin: 10px 0;
+    }
 
-  h3 {
-    font-size: 1.1em;
-  }
+    h2 {
+        font-size: 1.3em;
+        margin: 8px 0;
+    }
 
-  
-  .content-section {
-    margin: 10px;
-    padding: 10px;
-  }
+    h3 {
+        font-size: 1.1em;
+    }
 
-  
-  .flex-container {
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-  }
+    
+    .content-section {
+        margin: 10px;
+        padding: 10px;
+    }
 
-  .fact-box, .recipe-info, .recipe-steps {
-    width: 100%;
-    max-width: 500px;
-    padding: 12px;
-  }
+    
+    .flex-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
 
-  
-  .nav-links {
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-  }
+    .fact-box, .recipe-info, .recipe-steps {
+        width: 100%;
+        max-width: 500px;
+        padding: 12px;
+    }
 
-  .nav-links a {
-    width: 80%;
-    text-align: center;
-    padding: 10px;
-  }
+    
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
 
-  
-  .image-center {
-    width: 100%;
-    max-width: 400px;
-  }
+    .nav-links a {
+        width: 80%;
+        text-align: center;
+        padding: 10px;
+    }
 
-  
-  #main-footer, #recipe-footer {
-    padding: 15px;
-    font-size: 0.9em;
-  }
+        .image-center {
+            width: 100%;
+            max-width: 400px;
+        }
+
+
+    #main-footer, #recipe-footer {
+        padding: 15px;
+        font-size: 0.9em;
+    }
 }
